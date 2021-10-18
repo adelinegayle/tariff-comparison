@@ -23,7 +23,7 @@ http://localhost:8082/tariff/api/fetch?consumption=3500
 
 ## Requirements
 
-For development, you will only need Node.js and npm installed in your environement.
+For development, you will only need Node.js and npm installed in your environment.
 
 ### Node
 
