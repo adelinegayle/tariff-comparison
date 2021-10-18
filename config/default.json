@@ -1,0 +1,28 @@
+{
+  "http": {
+    "port": 8082,
+    "hostname": "localhost"
+  },
+  "express": {
+    "routes": {
+      "path": "/tariff/api/"
+    }
+  },
+  "products": [
+    {
+      "name": "basic electricity tariff",
+      "costs": {
+        "baseCharge": 5,
+        "consumptionCharge": 22
+      }
+    },
+    {
+      "name": "Packaged Tariff",
+      "costs": {
+        "baseCharge": 800,
+        "aboveCeilingCharge": 30,
+        "ceiling": 4000
+      }
+    }
+  ]
+}

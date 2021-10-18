@@ -1,0 +1,25 @@
+{
+  "name": "tariff-comparison",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "NODE_ENV=test jest --coverage"
+  },
+  "author": "Adeline Gayle Noman <adeline.gayle.noman@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-jest": "^27.3.0",
+    "babel-plugin-rewire": "^1.2.0",
+    "babel-preset-airbnb": "^5.0.0",
+    "jest": "^27.3.0",
+    "jest-extended": "^1.0.0"
+  }
+}
