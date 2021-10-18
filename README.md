@@ -61,3 +61,14 @@ If the installation was successful, you should be able to run the following comm
 ## Test the project
 
     $ npm run test
+
+## Contribution Guide
+
+- Fork the repository
+- Clone your fork
+- Add upstream repository to your remote:
+  `git remote add upstream git@github.com:adelinegayle/tariff-comparison.git`
+- Create new branch off of master: `git checkout -b _myBranchName_`
+- Make changes, add to stage: `git add \<file_name\> or all files git add .`
+- Track to remote: `git push -u origin _myBranchName_`
+- Open a pull request to the upstream repo master branch (Compare across forks, select myBranchName from your repo)
